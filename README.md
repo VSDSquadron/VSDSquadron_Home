@@ -18,4 +18,4 @@
 
 ## VSDSquadron_FM
 
-![VSDSquadronMini_CH32V003_JLCPCB](./VSDSquadron_FM/squadron_FM_1A_TOP.jpg)
+![VSDSquadronMini_CH32V003_JLCPCB](./VSDSquadron_FM/squadron_FM_2A_TOP.jpg)
