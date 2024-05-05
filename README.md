@@ -1,4 +1,6 @@
-# vsdsquadron
+# VSDSquadron
+
+This repository is a collection of the VSDSquadron development boards. It contains the description of each board and the associated schematics.
 
 ## VSDSquadron_openMPW
 
