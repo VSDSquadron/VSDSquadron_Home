@@ -12,12 +12,16 @@ This repository is a collection of the VSDSquadron development boards. It contai
 
 ## VSDSquadron_mini
 
-![VSDSquadronMini_CH32V003_JLCPCB](./VSDSquadronMini_CH32V003/SquadronMini_2A_TOP.jpg)
+![VSDSquadronMini_CH32V003](./VSDSquadronMini_CH32V003/SquadronMini_2A_TOP.jpg)
 
 ## VSDSquadron_miniProgrammer
 
-![VSDSquadronMini_CH32V003_JLCPCB](./VSDSquadronMini_programmer/Mini_Programmer_1A_TOP.jpg)
+![VSDSquadronMini_CH32V003](./VSDSquadronMini_programmer/Mini_Programmer_1A_TOP.jpg)
 
 ## VSDSquadron_FM
 
-![VSDSquadronMini_CH32V003_JLCPCB](./VSDSquadron_FM/squadron_FM_2A_TOP.jpg)
+![VSDSquadronMini_CH32V003](./VSDSquadron_FM/squadron_FM_2A_TOP.jpg)
+
+## VSDSquadron_Sifive
+
+![VSDSquadron_sifive](VSDSquadron_sifive/squadron_sifive_1A_TOP.jpg)
