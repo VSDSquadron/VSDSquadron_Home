@@ -4,11 +4,11 @@ This repository is a collection of the VSDSquadron development boards. It contai
 
 ## VSDSquadron_openMPW
 
-![VSDSquadron_MPW](./VSDSquadron_openMPW/squadron-3A_TOP.jpg)
+![VSDSquadron_openMPW](./VSDSquadron_openMPW/squadron-3A_TOP.jpg)
 
 ## VSDSquadron_gf180
 
-![VSDSquadron_Chipignite](./VSDSquadron_gf180/squadron_GF180_1A_TOP.jpg)
+![VSDSquadron_gf180](./VSDSquadron_gf180/squadron_GF180_1A_TOP.jpg)
 
 ## VSDSquadron_mini
 
@@ -20,7 +20,7 @@ This repository is a collection of the VSDSquadron development boards. It contai
 
 ## VSDSquadron_FM
 
-![VSDSquadronMini_CH32V003](./VSDSquadron_FM/squadron_FM_2A_TOP.jpg)
+![VSDSquadronMini_FM](./VSDSquadron_FM/squadron_FM_3A_TOP.jpg)
 
 ## VSDSquadron_Sifive
 
