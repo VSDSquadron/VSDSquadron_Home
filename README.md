@@ -20,7 +20,7 @@ This repository is a collection of the VSDSquadron development boards. It contai
 
 ## VSDSquadron_FM
 
-![VSDSquadronMini_FM](./VSDSquadron_FM/squadron_FM_AA_TOP.jpg)
+![VSDSquadronMini_FM](./VSDSquadron_FM/squadron_FM_4A_TOP.jpg)
 
 ## VSDSquadron_Sifive
 
