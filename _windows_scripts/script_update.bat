@@ -13,7 +13,7 @@ set "targetFolder6=..\VSDSquadron_sifive"
 REM Navigate two folders up for source folders
 set "sourceFolder1=..\..\squadron_CH32\SquadronMini_2B\production"
 set "sourceFolder2=..\..\squadron_GF180\squadron_GF180_1A\production"
-set "sourceFolder3=..\..\squadron_MPW\squadron-4A\production"
+set "sourceFolder3=..\..\squadron_MPW\squadron-3A\production"
 set "sourceFolder4=..\..\squadron_CH32\Mini_Programmer_1A\production"
 set "sourceFolder5=..\..\squadron_lattice\squadron_FM_4A\production"
 set "sourceFolder6=..\..\squadron_sifive\squadron_sifive_1B\production"
