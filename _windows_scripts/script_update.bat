@@ -18,6 +18,20 @@ set "sourceFolder4=..\..\squadron_CH32\Mini_Programmer_1A\production"
 set "sourceFolder5=..\..\squadron_lattice\squadron_FM_4A\production"
 set "sourceFolder6=..\..\squadron_sifive\squadron_sifive_1B\production"
 
+REM Clear existing .jpg and .pdf files from target folders
+del /q "%targetFolder1%\*.jpg"
+del /q "%targetFolder1%\*.pdf"
+del /q "%targetFolder2%\*.jpg"
+del /q "%targetFolder2%\*.pdf"
+del /q "%targetFolder3%\*.jpg"
+del /q "%targetFolder3%\*.pdf"
+del /q "%targetFolder4%\*.jpg"
+del /q "%targetFolder4%\*.pdf"
+del /q "%targetFolder5%\*.jpg"
+del /q "%targetFolder5%\*.pdf"
+del /q "%targetFolder6%\*.jpg"
+del /q "%targetFolder6%\*.pdf"
+
 REM Copy .jpg and .pdf files from source to target folders
 xcopy "%sourceFolder1%\*.jpg" "%targetFolder1%\" /s /y
 xcopy "%sourceFolder1%\*.pdf" "%targetFolder1%\" /s /y
@@ -36,7 +50,6 @@ xcopy "%sourceFolder5%\*.pdf" "%targetFolder5%\" /s /y
 
 xcopy "%sourceFolder6%\*.jpg" "%targetFolder6%\" /s /y
 xcopy "%sourceFolder6%\*.pdf" "%targetFolder6%\" /s /y
-
 
 REM Push all changes
 cd ..
