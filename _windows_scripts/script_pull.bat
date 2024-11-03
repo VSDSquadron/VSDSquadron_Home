@@ -16,7 +16,7 @@ for %%r in (%repos%) do (
         cd %%r
         git pull --recurse-submodules
         REM Update submodules to the latest commit on their respective branches
-        git submodule update --remote --recursive
+        git submodule update --remote --merge
         cd ..
     ) else (
         echo Repository %%r does not exist. Skipping...
