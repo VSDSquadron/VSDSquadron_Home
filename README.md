@@ -4,13 +4,19 @@ This repository is a collection of the VSDSquadron development boards. It contai
 
 ## VSDSquadron_openMPW
 
+The Software for VSDSquadron can be found at [https://github.com/vsdip/vsdsquadron](https://github.com/vsdip/vsdsquadron)
+
 ![VSDSquadron_openMPW](./VSDSquadron_openMPW/squadron-3A_TOP.jpg)
 
 ## VSDSquadron_gf180
 
+The Software for VSDSquadron can be found at [https://github.com/vsdip/vsdsquadron](https://github.com/vsdip/vsdsquadron)
+
 ![VSDSquadron_gf180](./VSDSquadron_gf180/squadron_GF180_1A_TOP.jpg)
 
 ## VSDSquadron_mini
+
+The Software for VSDSquadron Mini can be found at [https://github.com/vsdip/vsdsquadron_pio](https://github.com/vsdip/vsdsquadron_pio)
 
 ![VSDSquadronM_mini_](./VSDSquadronMini_CH32V003/SquadronMini_2B_TOP.jpg)
 
