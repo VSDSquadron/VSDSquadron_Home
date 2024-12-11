@@ -26,7 +26,7 @@ The Software for VSDSquadron Mini can be found at [https://github.com/vsdip/vsds
 
 ## VSDSquadron_FM
 
-![VSDSquadron_FM](./VSDSquadron_FM/squadron_FM_4A_TOP.jpg)
+![VSDSquadron_FM](./VSDSquadron_FM/squadron_FM_4B_TOP.jpg)
 
 ## VSDSquadron_Sifive
 
