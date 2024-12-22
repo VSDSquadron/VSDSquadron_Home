@@ -18,7 +18,7 @@ The Software for VSDSquadron can be found at [https://github.com/vsdip/vsdsquadr
 
 The Software for VSDSquadron Mini can be found at [https://github.com/vsdip/vsdsquadron_pio](https://github.com/vsdip/vsdsquadron_pio)
 
-![VSDSquadronM_mini_](./VSDSquadronMini_CH32V003/SquadronMini_2B_TOP.jpg)
+![VSDSquadronM_mini_](./VSDSquadronMini_CH32V003/SquadronMini_2C_TOP.jpg)
 
 ## VSDSquadron_miniProgrammer
 
