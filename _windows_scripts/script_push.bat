@@ -6,7 +6,7 @@ REM Navigate two folders up
 cd ..\..
 
 REM List of repositories to push
-set repos=squadron_CH32 squadron_GF180 squadron_MPW squadron_lattice squadron_sifive squadron_lib squadron_Riscduino
+set repos=squadron_CH32 squadron_GF180 squadron_MPW squadron_lattice squadron_sifive squadron_lib squadron_Riscduino squadron_tejas32
 
 REM Loop through each repository and push changes
 for %%r in (%repos%) do (
