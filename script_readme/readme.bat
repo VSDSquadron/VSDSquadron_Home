@@ -32,18 +32,24 @@ del /q "%targetFolder5%\*.pdf"
 REM Copy .jpg and .pdf files from source to target folders
 xcopy "%sourceFolder1%\*.jpg" "%targetFolder1%\" /s /y
 xcopy "%sourceFolder1%\*.pdf" "%targetFolder1%\" /s /y
+xcopy "%sourceFolder1%\bom.csv" "%targetFolder1%\" /s /y
+
 
 xcopy "%sourceFolder2%\*.jpg" "%targetFolder2%\" /s /y
 xcopy "%sourceFolder2%\*.pdf" "%targetFolder2%\" /s /y
+xcopy "%sourceFolder2%\bom.csv" "%targetFolder2%\" /s /y
 
 xcopy "%sourceFolder3%\*.jpg" "%targetFolder3%\" /s /y
 xcopy "%sourceFolder3%\*.pdf" "%targetFolder3%\" /s /y
+xcopy "%sourceFolder3%\bom.csv" "%targetFolder3%\" /s /y
 
 xcopy "%sourceFolder4%\*.jpg" "%targetFolder4%\" /s /y
 xcopy "%sourceFolder4%\*.pdf" "%targetFolder4%\" /s /y
+xcopy "%sourceFolder4%\bom.csv" "%targetFolder4%\" /s /y
 
 xcopy "%sourceFolder5%\*.jpg" "%targetFolder5%\" /s /y
 xcopy "%sourceFolder5%\*.pdf" "%targetFolder5%\" /s /y
+xcopy "%sourceFolder5%\bom.csv" "%targetFolder5%\" /s /y
 
 REM Push all changes
 cd ..

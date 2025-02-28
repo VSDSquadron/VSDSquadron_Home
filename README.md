@@ -2,32 +2,26 @@
 
 This repository is a collection of the VSDSquadron development boards. It contains the description of each board and the associated schematics.
 
-## VSDSquadron_openMPW
+## VSDSquadron SKY130
 
 The Software for VSDSquadron can be found at [https://github.com/vsdip/vsdsquadron](https://github.com/vsdip/vsdsquadron)
 
-![VSDSquadron_openMPW](./VSDSquadron_openMPW/squadron-3A_TOP.jpg)
+![!\[VSDSquadron_openMPW\](./VSDSquadron_openMPW/squadron-3A_TOP.jpg)](VSDSquadron_SKY130/squadron_sky130_TOP.jpg)
 
-## VSDSquadron_gf180
-
-The Software for VSDSquadron can be found at [https://github.com/vsdip/vsdsquadron](https://github.com/vsdip/vsdsquadron)
-
-![VSDSquadron_gf180](./VSDSquadron_gf180/squadron_GF180_1A_TOP.jpg)
-
-## VSDSquadron_mini
+## VSDSquadron Mini
 
 The Software for VSDSquadron Mini can be found at [https://github.com/vsdip/vsdsquadron_pio](https://github.com/vsdip/vsdsquadron_pio)
 
-![VSDSquadronM_mini_](./VSDSquadronMini_CH32V003/SquadronMini_2C_TOP.jpg)
+![!\[VSDSquadronM_mini_\](./VSDSquadronMini_CH32V003/SquadronMini_2C_TOP.jpg)](VSDSquadron_Mini/squadron_mini_TOP.jpg)
 
-## VSDSquadron_miniProgrammer
+## VSDSquadron FM
 
-![VSDSquadron_miniProgrammer](./VSDSquadronMini_programmer/Mini_Programmer_1A_TOP.jpg)
+![!\[VSDSquadron_FM\](./VSDSquadron_FM/squadron_FM_4B_TOP.jpg)](VSDSquadron_FM/squadron_FM_TOP.jpg)
 
-## VSDSquadron_FM
+## VSDSquadron PRO
 
-![VSDSquadron_FM](./VSDSquadron_FM/squadron_FM_4B_TOP.jpg)
+![!\[VSDSquadron_pro\](VSDSquadron_sifive/squadron_sifive_1B_TOP.jpg)](VSDSquadron_Pro/squadron_pro_TOP.jpg)
 
-## VSDSquadron_Sifive
+## VSDSquadron Ultra
 
-![VSDSquadron_pro](VSDSquadron_sifive/squadron_sifive_1B_TOP.jpg)
+![!\[VSDSquadron_pro\](VSDSquadron_sifive/squadron_sifive_1B_TOP.jpg)](VSDSquadron_Ultra/squadron_ultra_TOP.jpg)
