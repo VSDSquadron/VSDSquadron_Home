@@ -6,10 +6,10 @@ REM Navigate two folders up
 cd ..\..
 
 REM List of repositories to clone
-set repos=squadron_CH32 squadron_GF180 squadron_MPW squadron_lattice squadron_sifive squadron_lib squadron_Riscduino squadron_tejas32
+set repos=PCB_VSDSquadron_Pro PCB_VSDSquadron_Mini PCB_VSDSquadron_FM PCB_VSDSquadron_Ultra PCB_VSDSquadron_SKY130
 
 REM GitHub username
-set username=yathAg
+set username=VSDSquadron
 
 REM Loop through each repository and clone it
 for %%r in (%repos%) do (

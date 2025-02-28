@@ -3,20 +3,18 @@ REM Save the current directory
 set "original_dir=%cd%"
 
 REM Navigate one folder up for target folders
-set "targetFolder1=..\VSDSquadronMini_CH32V003"
-set "targetFolder2=..\VSDSquadron_gf180"
-set "targetFolder3=..\VSDSquadron_openMPW"
-set "targetFolder4=..\VSDSquadronMini_programmer"
-set "targetFolder5=..\VSDSquadron_FM"
-set "targetFolder6=..\VSDSquadron_sifive"
+set "targetFolder1=..\VSDSquadron_Mini"
+set "targetFolder2=..\VSDSquadron_FM"
+set "targetFolder3=..\VSDSquadron_Pro"
+set "targetFolder4=..\VSDSquadron_Ultra"
+set "targetFolder5=..\VSDSquadron_SKY130"
 
 REM Navigate two folders up for source folders
-set "sourceFolder1=..\..\squadron_CH32\SquadronMini_2C\production"
-set "sourceFolder2=..\..\squadron_GF180\squadron_GF180_1A\production"
-set "sourceFolder3=..\..\squadron_MPW\squadron-3A\production"
-set "sourceFolder4=..\..\squadron_CH32\Mini_Programmer_1A\production"
-set "sourceFolder5=..\..\squadron_lattice\squadron_FM_4B\production"
-set "sourceFolder6=..\..\squadron_sifive\squadron_sifive_1B\production"
+set "sourceFolder1=..\..\PCB_VSDSquadron_Mini\squadron_mini\production"
+set "sourceFolder2=..\..\PCB_VSDSquadron_FM\squadron_FM\production"
+set "sourceFolder3=..\..\PCB_VSDSquadron_Pro\squadron_pro\production"
+set "sourceFolder4=..\..\PCB_VSDSquadron_Ultra\squadron_ultraA\production"
+set "sourceFolder5=..\..\PCB_VSDSquadron_SKY130\squadron_sky130\production"
 
 REM Clear existing .jpg and .pdf files from target folders
 del /q "%targetFolder1%\*.jpg"
@@ -29,8 +27,7 @@ del /q "%targetFolder4%\*.jpg"
 del /q "%targetFolder4%\*.pdf"
 del /q "%targetFolder5%\*.jpg"
 del /q "%targetFolder5%\*.pdf"
-del /q "%targetFolder6%\*.jpg"
-del /q "%targetFolder6%\*.pdf"
+
 
 REM Copy .jpg and .pdf files from source to target folders
 xcopy "%sourceFolder1%\*.jpg" "%targetFolder1%\" /s /y
@@ -47,9 +44,6 @@ xcopy "%sourceFolder4%\*.pdf" "%targetFolder4%\" /s /y
 
 xcopy "%sourceFolder5%\*.jpg" "%targetFolder5%\" /s /y
 xcopy "%sourceFolder5%\*.pdf" "%targetFolder5%\" /s /y
-
-xcopy "%sourceFolder6%\*.jpg" "%targetFolder6%\" /s /y
-xcopy "%sourceFolder6%\*.pdf" "%targetFolder6%\" /s /y
 
 REM Push all changes
 cd ..
