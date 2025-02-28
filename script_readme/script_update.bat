@@ -13,7 +13,7 @@ REM Navigate two folders up for source folders
 set "sourceFolder1=..\..\PCB_VSDSquadron_Mini\squadron_mini\production"
 set "sourceFolder2=..\..\PCB_VSDSquadron_FM\squadron_FM\production"
 set "sourceFolder3=..\..\PCB_VSDSquadron_Pro\squadron_pro\production"
-set "sourceFolder4=..\..\PCB_VSDSquadron_Ultra\squadron_ultraA\production"
+set "sourceFolder4=..\..\PCB_VSDSquadron_Ultra\squadron_ultra\production"
 set "sourceFolder5=..\..\PCB_VSDSquadron_SKY130\squadron_sky130\production"
 
 REM Clear existing .jpg and .pdf files from target folders
