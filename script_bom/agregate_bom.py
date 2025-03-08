@@ -4,8 +4,8 @@ import pandas as pd
 multipliers = {
     "VSDSquadron_Mini": 1,
     "VSDSquadron_FM": 1,
-    "VSDSquadron_Pro": 0,
-    "VSDSquadron_Ultra": 1,
+    "VSDSquadron_Pro": 1,
+    "VSDSquadron_Ultra": 0,
     "VSDSquadron_SKY130": 0,
 }
 

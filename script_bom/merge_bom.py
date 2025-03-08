@@ -12,8 +12,8 @@ board_folders = [
 
 # Optionally, specify boards to skip (just add board names from board_folders list)
 skip_boards = [   
-    "VSDSquadron_Pro",
-    # "VSDSquadron_Ultra",
+    # "VSDSquadron_Pro",
+    "VSDSquadron_Ultra",
     "VSDSquadron_SKY130"
 ]  # e.g., ["VSDSquadron_FM", "VSDSquadron_SKY130"]
 
