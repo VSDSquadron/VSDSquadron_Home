@@ -16,7 +16,7 @@ multipliers = {
     "VSDSquadron_Mini": 1,
     "VSDSquadron_FM": 1,
     "VSDSquadron_Pro": 1,
-    "VSDSquadron_Ultra": 0,  # Excluded
+    "VSDSquadron_Ultra": 1,  # Excluded
     "VSDSquadron_SKY130": 0,  # Excluded
 }
 
