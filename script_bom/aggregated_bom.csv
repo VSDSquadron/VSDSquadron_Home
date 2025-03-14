@@ -33,7 +33,7 @@ C25867,1,0402,1.5k,VSDSquadron_FM,R
 C25905,11,0402,5.1k,"VSDSquadron_FM, VSDSquadron_Mini, VSDSquadron_Pro, VSDSquadron_Ultra",R
 C26083,1,0402,1M,VSDSquadron_Pro,R
 C2678152,1,QFN-48-1EP_7x7mm_P0.5mm_EP3.5x3.5mm,iCE40UP5k-SG48ITR,VSDSquadron_FM,U
-C2894937,8,"PinHeader_1x12_P2.54mm_Vertical, PinHeader_1x14_P2.54mm_Vertical",Conn_01x14_Female,"VSDSquadron_Pro, VSDSquadron_Ultra",J
+C2894937,4,PinHeader_1x12_P2.54mm_Vertical,Conn_01x14_Female,VSDSquadron_Pro,J
 C29175,1,SOT-23-3,AZ1117-1.2,VSDSquadron_FM,U
 C3003273,1,Crystal_SMD_3225-4Pin_3.2x2.5mm,32.7680kHz,VSDSquadron_Pro,X
 C347220,1,SOT-223-3_TabPin2,AMS1117-1.8,VSDSquadron_Pro,U
