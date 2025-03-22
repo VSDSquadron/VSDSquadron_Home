@@ -15,8 +15,8 @@ board_folders = [
 multipliers = {
     "VSDSquadron_Mini": 1,
     "VSDSquadron_FM": 1,
-    "VSDSquadron_Pro": 1,
-    "VSDSquadron_Ultra": 1,  # Excluded
+    "VSDSquadron_Pro": 0,
+    "VSDSquadron_Ultra": 1,  
     "VSDSquadron_SKY130": 0,  # Excluded
 }
 
