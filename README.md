@@ -37,14 +37,14 @@ Please refer to the serial number on the back of your board to identify the vers
 
 | Serial Number        | Version | Changes from Previous Version                   |
 |----------------------|---------|-------------------------------------------------|
-| 20241101_J, 20240223_J | 1       | Initial version                                |
-| 20241225_J           | 2       | Increased pinout size to fit on perf board       |
+| `20241101_J` <br> `20240223_J` | 1       | Initial version                                |
+| `20241225_J`           | 2       | Increased pinout size to fit on perf board       |
 
-### VSDSquadron
+### VSDSquadron FM
 
 | Serial Number | Version | Changes from Previous Version                                                                 |
 |---------------|---------|-----------------------------------------------------------------------------------------------|
-| 20241201_J    | 1       | Initial version                                                                                |
-| 20250321_J    | 2       | ICE clock changed to 12 MHz (from 25 MHz),RGB LEDs now have separate resistors per channel (was one shared resistor) |
+| `20241201_J`    | 1       | Initial version                                                                                |
+| `20250321_J`    | 2       | ICE clock changed to 12 MHz (from 25 MHz) <br> RGB LEDs now have separate resistors per channel (was one shared resistor) |
 
 
