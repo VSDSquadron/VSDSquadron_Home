@@ -16,6 +16,8 @@ The Software for VSDSquadron Mini can be found at [https://github.com/vsdip/vsds
 
 ## VSDSquadron FM
 
+The Software for VSDSquadron Mini can be found at [https://github.com/VSDSquadron/VSDSquadron_FM](https://github.com/VSDSquadron/VSDSquadron_FM)
+
 ![alt text](VSDSquadron_FM/squadron_FM_TOP.jpg)
 
 ## VSDSquadron PRO
@@ -25,3 +27,24 @@ The Software for VSDSquadron Mini can be found at [https://github.com/vsdip/vsds
 ## VSDSquadron Ultra
 
 ![alt text](VSDSquadron_Ultra/squadron_ultra_TOP.jpg)
+
+
+## Board Versioning Notice
+
+Please refer to the serial number on the back of your board to identify the version and its changes.
+
+### VSDSquadron Mini
+
+| Serial Number        | Version | Changes from Previous Version                   |
+|----------------------|---------|-------------------------------------------------|
+| `20241101_J` <br> `20240223_J` | 1       | Initial version                                |
+| `20241225_J`           | 2       | Increased pinout size to fit on perf board       |
+
+### VSDSquadron FM
+
+| Serial Number | Version | Changes from Previous Version                                                                 |
+|---------------|---------|-----------------------------------------------------------------------------------------------|
+| `20241201_J`    | 1       | Initial version                                                                                |
+| `20250321_J`    | 2       | ICE clock changed to 12 MHz (from 25 MHz) <br> RGB LEDs now have separate resistors per channel (was one shared resistor) |
+
+
