@@ -1,3 +1,13 @@
+"""
+This script automates the synchronization of production files across various VSDSquadron project directories.
+It performs the following tasks:
+
+1. Clears existing `.jpg` and `.pdf` files from designated target folders.
+2. Copies `.jpg`, `.pdf`, and `bom.csv` files from their respective source production folders into the corresponding target folders.
+3. Optionally stages, commits, and pushes the changes using Git, unless the `--no-push` flag is provided.
+
+Useful for keeping production artifacts updated across multiple hardware project directories.
+"""
 #!/usr/bin/env python3
 import os
 import re
