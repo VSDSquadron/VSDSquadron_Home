@@ -8,7 +8,8 @@ board_folders = [
     "VSDSquadron_FM",
     "VSDSquadron_Pro",
     "VSDSquadron_Ultra",
-    "VSDSquadron_SKY130"
+    "VSDSquadron_SKY130",
+    "VSDSquadron_S3"
 ]
 
 # Set multipliers for each board. If 0, board is skipped entirely.
@@ -18,6 +19,7 @@ multipliers = {
     "VSDSquadron_Pro": 0,
     "VSDSquadron_Ultra": 1,  
     "VSDSquadron_SKY130": 0,  # Excluded
+    "VSDSquadron_S3": 1,  # Excluded
 }
 
 # List to hold DataFrames for included boards
