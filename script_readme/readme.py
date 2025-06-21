@@ -24,20 +24,22 @@ def main(no_push):
 
     # Define target folders (one level up)
     target_folders = {
-        "VSDSquadron_Mini": "../VSDSquadron_Mini",
         "VSDSquadron_FM": "../VSDSquadron_FM",
+        "VSDSquadron_Mini": "../VSDSquadron_Mini",
         "VSDSquadron_Pro": "../VSDSquadron_Pro",
-        "VSDSquadron_Ultra": "../VSDSquadron_Ultra",
+        "VSDSquadron_S3": "../VSDSquadron_S3",
         "VSDSquadron_SKY130": "../VSDSquadron_SKY130",
+        "VSDSquadron_Ultra": "../VSDSquadron_Ultra",
     }
 
     # Define source folders (two levels up)
     source_folders = {
-        "VSDSquadron_Mini": "../../PCB_VSDSquadron_Mini/squadron_mini/production",
         "VSDSquadron_FM": "../../PCB_VSDSquadron_FM/squadron_FM/production",
+        "VSDSquadron_Mini": "../../PCB_VSDSquadron_Mini/squadron_mini/production",
         "VSDSquadron_Pro": "../../PCB_VSDSquadron_Pro/squadron_pro/production",
-        "VSDSquadron_Ultra": "../../PCB_VSDSquadron_Ultra/squadron_ultra/production",
+        "VSDSquadron_S3": "../../PCB_VSDSquadron_S3/squadron_s3/production",
         "VSDSquadron_SKY130": "../../PCB_VSDSquadron_SKY130/squadron_sky130/production",
+        "VSDSquadron_Ultra": "../../PCB_VSDSquadron_Ultra/squadron_ultra/production",
     }
 
     # Clear and copy files
