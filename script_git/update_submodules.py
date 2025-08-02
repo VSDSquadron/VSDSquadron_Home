@@ -1,7 +1,6 @@
 import os
 import subprocess
 
-# List of repositories
 repos = [
     "PCB_VSDSquadron_Pro",
     "PCB_VSDSquadron_Mini",
@@ -12,14 +11,33 @@ repos = [
 
 def update_submodules(repo_path):
     try:
-        print(f"\nUpdating submodules in {repo_path}...")
-        subprocess.run(["git", "submodule", "update", "--init", "--recursive"], cwd=repo_path, check=True)
-        print(f"✅ Submodules updated for {repo_path}")
+        print(f"\nUpdating submodules in {repo_path} …")
+
+        # 1. Make sure submodules are initialised
+        subprocess.run(
+            ["git", "submodule", "update", "--init", "--recursive"],
+            cwd=repo_path, check=True
+        )
+
+        # 2. Now move each submodule to the branch it tracks (e.g. main) and pull latest
+        subprocess.run(
+            ["git", "submodule", "update", "--remote", "--recursive"],
+            cwd=repo_path, check=True
+        )
+
+        # 3. OPTIONAL: fast-forward the recorded commit so the super-project
+        #            itself reflects the new submodule SHAs (requires commit)
+        subprocess.run(["git", "add", "."], cwd=repo_path, check=True)
+        subprocess.run(["git", "commit", "-m", "Bump submodules"], cwd=repo_path)
+        subprocess.run(["git", "push"], cwd=repo_path)
+
+        print(f"✅ Submodules updated & on their tracking branch for {repo_path}")
+
     except subprocess.CalledProcessError as e:
         print(f"❌ Failed to update submodules in {repo_path}: {e}")
 
 def main():
-    # Assuming this script is in the same root where repos are cloned
+    # Script lives two levels beneath the repos
     root_dir = os.path.abspath(os.path.join(os.getcwd(), "..", ".."))
 
     for repo in repos:
