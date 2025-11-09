@@ -14,7 +14,7 @@ board_folders = [
 # Set multipliers for each board. If 0, board is skipped entirely.
 multipliers = {
     "VSDSquadron_Mini": 0,
-    "VSDSquadron_FM": 1,
+    "VSDSquadron_FM": 0,
     "VSDSquadron_Pro": 1,
     "VSDSquadron_Ultra": 1,  
     "VSDSquadron_SKY130": 0,  # Excluded
