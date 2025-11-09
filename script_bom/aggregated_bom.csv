@@ -1,14 +1,12 @@
 LCSC Part #,Quantity,Footprint,Value,board,Designator
 C110105,1,SOT-223-3_TabPin2,AZ1117-1.2,VSDSquadron_Ultra,U
 C11702,10,0402,1k,"VSDSquadron_Pro, VSDSquadron_Ultra",R
-C15195,1,0402,10nF,VSDSquadron_Pro,C
-C1525,73,0402,0.1uF,"VSDSquadron_FM, VSDSquadron_Pro, VSDSquadron_Ultra",C
+C1525,74,0402,0.1uF,"VSDSquadron_FM, VSDSquadron_Pro, VSDSquadron_Ultra",C
 C1548,2,0402,15pF,"VSDSquadron_FM, VSDSquadron_Pro",C
 C1557,4,0402,27pF,VSDSquadron_Pro,C
 C1570,2,0402,30pF,VSDSquadron_FM,C
 C15849,1,0603,1uF,VSDSquadron_Ultra,C
-C17168,7,0402,0,"VSDSquadron_FM, VSDSquadron_Ultra",R
-C179173,2,SOIC-8_5.3x5.3mm_P1.27mm,"W25Q32JVSS, W25Q32JVSSIQ","VSDSquadron_Pro, VSDSquadron_Ultra",U
+C17168,5,0402,0,"VSDSquadron_FM, VSDSquadron_Ultra",R
 C193662,1,QFN-64-1EP_9x9mm_P0.5mm_EP4.35x4.35mm,FT2232HQ-REEL,VSDSquadron_Pro,U
 C193969,1,TSSOP-10_3x3mm_P0.5mm,ADS1015IDGS,VSDSquadron_Ultra,U
 C19666,14,0603,4.7uF,"VSDSquadron_FM, VSDSquadron_Pro, VSDSquadron_Ultra",C
@@ -20,8 +18,7 @@ C2286,5,0603,LED (Red),"VSDSquadron_FM, VSDSquadron_Pro, VSDSquadron_Ultra","HB,
 C2288,9,0603,LED (Blue),"VSDSquadron_Pro, VSDSquadron_Ultra",L
 C25076,2,0402,100,"VSDSquadron_FM, VSDSquadron_Pro",R
 C25117,15,0402,470,"VSDSquadron_FM, VSDSquadron_Pro, VSDSquadron_Ultra",R
-C25741,3,0402,100k,VSDSquadron_Pro,R
-C25744,24,0402,10k,"VSDSquadron_FM, VSDSquadron_Ultra",R
+C25744,24,0402,10k,"VSDSquadron_FM, VSDSquadron_Pro, VSDSquadron_Ultra",R
 C25752,3,0402,12k,"VSDSquadron_FM, VSDSquadron_Pro",R
 C25867,1,0402,1.5k,VSDSquadron_FM,R
 C25900,11,0402,4.7k,VSDSquadron_Ultra,R
@@ -41,13 +38,14 @@ C4968,1,0402,9.1k,VSDSquadron_Ultra,R
 C51997,1,LQFP-48_7x7mm_P0.5mm,FT232H,VSDSquadron_FM,U
 C5280579,1,Oscillator_SMD_3225-4Pin_3.2x2.5mm,32.7680kHz,VSDSquadron_Pro,X
 C5336479,1,SOT-23-3,AZ1117-3.3,VSDSquadron_FM,U
+C5555631,1,SOIC-8_3.9x4.9mm_P1.27mm,at25sf161b,VSDSquadron_Ultra,U
+C592731,2,SW_PUSH_6mm,SW_SPST,VSDSquadron_Pro,SW
 C59461,3,0603,22uF,"VSDSquadron_Pro, VSDSquadron_Ultra",C
-C720477,6,"SW_PUSH_6mm, TS-1088-AR02016_miniPushSwitch","SW_Push, SW_SPST","VSDSquadron_FM, VSDSquadron_Pro, VSDSquadron_Ultra",SW
-C7275089,1,Crystal_SMD_3225-4Pin_3.2x2.5mm,12MHz,VSDSquadron_Pro,Y
+C720477,4,TS-1088-AR02016_miniPushSwitch,SW_Push,"VSDSquadron_FM, VSDSquadron_Ultra",SW
 C7275097,1,Crystal_SMD_3225-4Pin_3.2x2.5mm,16MHz,VSDSquadron_Pro,Y
 C7501644,1,SOT-23-3,AZ1117-1.2,VSDSquadron_FM,U
-C82344,1,SOIC-8_5.3x5.3mm_P1.27mm,W25Q32JVSSIQ,VSDSquadron_FM,U
-C9002,1,Crystal_SMD_3225-4Pin_3.2x2.5mm,12MHz,VSDSquadron_FM,Y
+C82344,2,SOIC-8_5.3x5.3mm_P1.27mm,W25Q32JVSSIQ,"VSDSquadron_FM, VSDSquadron_Pro",U
+C9002,2,Crystal_SMD_3225-4Pin_3.2x2.5mm,12MHz,"VSDSquadron_FM, VSDSquadron_Pro",Y
 C94058,2,SOT-223-3_TabPin2,AMS1117-3.3,"VSDSquadron_Pro, VSDSquadron_Ultra",U
 C969913,1,SiliconLabs_QFN-20-1EP_3x3mm_P0.5mm_EP1.8x1.8mm,CP2102N-Axx-xQFN20,VSDSquadron_Ultra,U
 C9900173402,1,LQFP-128_14x14mm_P0.4mm,THEJAS32,VSDSquadron_Ultra,U
