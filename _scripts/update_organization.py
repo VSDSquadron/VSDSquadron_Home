@@ -129,13 +129,26 @@ def sync_production_artifacts(push_changes=True):
 
     if push_changes:
         os.chdir("..")
-        subprocess.run(["git", "add", "."], check=True)
-        subprocess.run(
-            ["git", "commit", "-m", "Updated production folders"],
-            check=True,
-        )
-        subprocess.run(["git", "push"], check=True)
-        os.chdir(original_dir)
+        try:
+            subprocess.run(["git", "add", "."], check=True)
+
+            status = subprocess.run(
+                ["git", "status", "--porcelain"],
+                check=True,
+                capture_output=True,
+                text=True,
+            )
+
+            if not status.stdout.strip():
+                print("[INFO] No production changes to commit; skipping push.")
+            else:
+                subprocess.run(
+                    ["git", "commit", "-m", "Updated production folders"],
+                    check=True,
+                )
+                subprocess.run(["git", "push"], check=True)
+        finally:
+            os.chdir(original_dir)
 
     print("Production artifact sync complete.")
 
