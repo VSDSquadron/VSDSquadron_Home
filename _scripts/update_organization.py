@@ -98,6 +98,7 @@ def copy_readme_and_images_into_profile(
 def sync_production_artifacts(push_changes=True):
     """Handles production artifacts sync and optional git operations."""
     original_dir = os.getcwd()
+    home_dir = os.path.abspath("..")
 
     target_folders = {
         "VSDSquadron_FM": "../VSDSquadron_FM",
@@ -127,8 +128,27 @@ def sync_production_artifacts(push_changes=True):
         if os.path.exists(source):
             copy_files(source, target)
 
+    allowed_dirs = {os.path.abspath(path) for path in target_folders.values()}
+
+    for entry in os.listdir(home_dir):
+        entry_path = os.path.join(home_dir, entry)
+        if not os.path.isdir(entry_path):
+            continue
+
+        if entry == "_scripts":
+            continue
+
+        if not (entry.startswith("VSDSquadron") or entry.startswith("VSDSQuadron")):
+            continue
+
+        if os.path.abspath(entry_path) in allowed_dirs:
+            continue
+
+        print(f"[INFO] Removing obsolete folder: {entry_path}")
+        shutil.rmtree(entry_path)
+
     if push_changes:
-        os.chdir("..")
+        os.chdir(home_dir)
         try:
             subprocess.run(["git", "add", "."], check=True)
 
