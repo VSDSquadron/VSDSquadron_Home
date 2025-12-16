@@ -46,5 +46,3 @@ Please refer to the serial number on the back of your board to identify the vers
 |---------------|---------|-----------------------------------------------------------------------------------------------|
 | `20241201_J`    | 1       | Initial version                                                                                |
 | `20250321_J`    | 2       | ICE clock changed to 12 MHz (from 25 MHz) <br> RGB LEDs now have separate resistors per channel (was one shared resistor) |
-
-
